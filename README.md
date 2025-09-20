@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./assets/cha-ching-logo-green.png" alt="Cha-Ching Logo" width="300"/>
-  <h1>⚡️ Cha-Ching Monorepo 🚀</h1>
+  <h1>⚡️ Cha-Ching 🚀</h1>
 </div>
 
 **Cha-Ching** is all about engagement. Our goal is to help GitHub organizations involve builders by transforming activity into meaningful point-based rewards. 
@@ -21,7 +21,7 @@ Cha-Ching turns GitHub activity into $CHING points, on-chain rewards for contrib
 
     Choose the repositories you want to track contributions on.
 
-2.	**Create a Bounty Basket (Epoch)**
+2.	**Create a Bounty Campaign**
     
     Define a time window (e.g., 30 days) and set custom reward rules like:
     - "Merged PR = 100 $CHING"
@@ -73,15 +73,11 @@ Cha-Ching turns GitHub activity into $CHING points, on-chain rewards for contrib
 > 🔐 All contributions and point awards are signed and stored on Filecoin for auditability, transparency, and decentralized verification.
 
 
-## 🗂️ Monorepo Structure
+## 🗂️ Cha-Ching Repositories Structure
 
-```bash
-/cha-ching
-  /app           # Next.js 15 app (NextAuth.js)
-  /backend       # Node.js API server (Nest.js)
-  /contracts     # Solidity smart contracts (Foundry)
-  /envio-indexer # Blockchain indexer (Envio HyperIndexer)
-```
+* Backend: https://github.com/AxLabs/cha-ching-backend
+* Frontend: https://github.com/AxLabs/cha-ching-app
+* Contracts (ERC-1155): https://github.com/AxLabs/cha-ching-contracts
 
 ## 💡 Tech Stack
 
@@ -89,7 +85,7 @@ Cha-Ching turns GitHub activity into $CHING points, on-chain rewards for contrib
 👉 **NextAuth.js** – GitHub OAuth authentication <br>
 👉 **shadcn-ui** – Beautiful components <br>
 👉 **Hardhat/Foundry** – EVM smart contract toolkit <br>
-👉**Node.js** – Backend API server (NestJS) <br>
+👉 **Node.js** – Backend API server (NestJS) <br>
 👉 **Probot** – GitHub bot for automations <br>
 👉 **pnpm workspaces** – Monorepo dependency management <br>
 👉 **MongoDB** - NoSQL DB for fast queries <br>
